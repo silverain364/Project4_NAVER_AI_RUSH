@@ -1,0 +1,96 @@
+section,
+header,
+footer {
+    position: relative;
+    width: 100%;
+}
+
+.inner {
+    max-width: 136rem;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+p{
+    text-transform: uppercase;
+}
+
+.blind {
+    display: none;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 4.8rem;
+    font-size: 2.6rem;
+    color: #fff;
+    height: 7rem;
+    text-transform: uppercase;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgb(208, 59, 168) 0%, rgb(65, 162, 247) 100%);
+}
+
+h2.s-tit{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 7.5rem;
+}
+
+p.s-txt {
+    font-size: 2.6rem;
+    line-height: 4.2rem;
+    font-weight: 700;
+}
+
+.flex-wrap {
+    display: flex;
+}
+
+@keyframes rolling{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.info-lst h5 {
+    font-size: 2.4rem;
+    letter-spacing: -.01rem;
+    font-weight: 600;
+    margin: 2.1rem 0 1.6rem;
+}
+
+.info-lst .num {
+    font-size: 2.4rem;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.info-wrap +.info-wrap{
+    padding-top: 23rem;
+}
